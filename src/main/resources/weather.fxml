@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.abhi.weatherapp.controller.WeatherController"
+      spacing="10"
+      alignment="CENTER">
+
+    <Label text="Weather Forecast" style="-fx-font-size:18px"/>
+
+    <TextField fx:id="cityField" promptText="Enter city name"/>
+
+    <Button text="Get Weather" onAction="#getWeather"/>
+
+    <Label fx:id="cityLabel"/>
+    <Label fx:id="tempLabel"/>
+    <Label fx:id="feelsLabel"/>
+    <Label fx:id="humidityLabel"/>
+    <Label fx:id="windLabel"/>
+    <Label fx:id="conditionLabel"/>
+
+    <ImageView fx:id="iconView" fitWidth="100" fitHeight="100"/>
+
+    <Label fx:id="statusLabel"/>
+
+</VBox>

@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="weatherapp " type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.abhi.weatherapp.app.MainApp " />
+    <module name="weatherapp" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
